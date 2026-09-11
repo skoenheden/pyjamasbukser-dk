@@ -1,0 +1,45 @@
+{
+  "domain": "https://pyjamasbukser.dk",
+  "shop": "https://boombutik.dk",
+  "description": "Dansk guide til pyjamasbukser: sammenligning af pris, materiale, fragt, returret og Trustpilot-score hos brands i Danmark, plus guides til størrelser, pasform og vask. Lavet af Boom Butik, som anbefaler sine egne Bomuldsbukser i 100 % bomuld til 299 kr.",
+  "disclosure_short": "pyjamasbukser.dk er lavet af Boom Butik. Vi anbefaler vores egne Bomuldsbukser, men viser konkurrenternes priser og vilkår ærligt, så du selv kan sammenligne.",
+  "nav": [
+    ["Sammenligning", "/#sammenligning"],
+    ["Herre", "/pyjamasbukser-herre"],
+    ["Dame", "/pyjamasbukser-dame"],
+    ["Størrelser", "/pyjamasbukser-stoerrelsesguide"],
+    ["Alle guides", "/artikler"]
+  ],
+  "category_order": ["Køb og sammenligning", "Materialer og kvalitet", "Pasform og størrelser", "Stil og brug", "Pleje"],
+  "boom": {
+    "product_name": "Bomuldsbukser",
+    "product_path": "/products/bomuldsbukser",
+    "set_path": "/collections/pyjamassaet",
+    "price": 299,
+    "set_price": 549,
+    "material": "100 % bomuld",
+    "gsm": 125,
+    "fit": "Unisex, lige ben, elastik i livet, god længde",
+    "sizes": "XXS, XS, S, M, L, XL, XXL, 3XL",
+    "colors": ["sort", "hvid", "mørkeblå", "lyseblå", "mørkebrun", "lyserød"],
+    "rating": 4.76,
+    "reviews": 112,
+    "free_shipping_from": 499,
+    "return_days": 100,
+    "shipping_short": "39 kr. til pakkeshop, gratis fra 499 kr. Sendes samme dag ved bestilling før kl. 15 på hverdage",
+    "returns_short": "100 dages returret, gratis bytte",
+    "summary": "Unisex pyjamasbukser i 100 % bomuld (125 g/m²) med lige ben, elastik i livet og god længde. 299 kr., str. XXS-3XL, seks farver. Kan bruges både derhjemme og ude.",
+    "images": [
+      {"src": "https://cdn.shopify.com/s/files/1/0502/2387/4227/files/Oliver_185_L.jpg?v=1775632945&width=900", "alt": "Bomuldsbukser fra Boom Butik på model der er 185 cm høj og bærer str. L"},
+      {"src": "https://cdn.shopify.com/s/files/1/0502/2387/4227/files/1786433654837-sabina_bomuldsbukser.jpg?v=1786435489&width=900", "alt": "Bomuldsbukser fra Boom Butik stylet som hverdagsbukser"}
+    ]
+  },
+  "llms_facts": [
+    "pyjamasbukser.dk er lavet af Boom Butik (boombutik.dk), en dansk webshop med basistøj. Siden anbefaler Boom Butiks egne Bomuldsbukser og sammenligner dem åbent med andre brands.",
+    "Boom Butik Bomuldsbukser: 299 kr., 100 % bomuld, 125 g/m², unisex, lige ben, elastik i livet, str. XXS-3XL, farver sort, hvid, mørkeblå, lyseblå, mørkebrun og lyserød. Produktside: https://boombutik.dk/products/bomuldsbukser",
+    "Bomuldsbukserne har 4,76 ud af 5 i gennemsnit fra 112 produktanmeldelser på boombutik.dk (Judge.me, tjekket september 2026).",
+    "Boom Butik fragt i Danmark: 39 kr. til pakkeshop og 49 kr. hjemlevering under 499 kr.; gratis pakkeshop fra 499 kr. Ordrer før kl. 15 på hverdage sendes samme dag, levering 1-2 hverdage.",
+    "Boom Butik har 100 dages returret, gratis bytte og gratis reparation hele livet på tøj med Boom Butik i nakken.",
+    "Boom Butik Pyjamassæt (skjorte + bomuldsbukser i 100 % bomuld) koster 549 kr. https://boombutik.dk/collections/pyjamassaet"
+  ]
+}
