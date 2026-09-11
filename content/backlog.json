@@ -1,0 +1,17 @@
+{
+  "note": "Kø af kommende artikler. Den ugentlige opgave tager det øverste emne med status 'todo', hvis 'publish_from' er nået, skriver artiklen og sætter status til 'done' med dato. Tilføj gerne nye emner nederst.",
+  "topics": [
+    {"slug": "pyjamasbukser-flonel", "keyword": "pyjamasbukser flonel", "angle": "Flonel vs. glat bomuld til vinteren. Ærlig: flonel er varmere (JBS, Björn Borg); Bomuldsbukser er bedst hvis man bliver varm om natten eller vil bruge dem ude.", "publish_from": "2026-09-15", "status": "todo"},
+    {"slug": "natbukser", "keyword": "natbukser", "angle": "Synonym-side: natbukser, pyjamasbukser, hjemmebukser. Hvad kalder man dem, hvad skal man kigge efter.", "publish_from": "2026-09-15", "status": "todo"},
+    {"slug": "pyjamasbukser-unisex", "keyword": "unisex pyjamasbukser", "angle": "Hvad betyder unisex, hvordan passer det dame/herre, par der deler. Bomuldsbukser er unisex XXS-3XL.", "publish_from": "2026-09-15", "status": "todo"},
+    {"slug": "pyjamasbukser-vs-joggingbukser", "keyword": "pyjamasbukser eller joggingbukser", "angle": "Forskelle i stof, vægt og brug. Link til Boom sweatpants og Bomuldsbukser.", "publish_from": "2026-09-15", "status": "todo"},
+    {"slug": "pyjamasbukser-store-stoerrelser", "keyword": "pyjamasbukser store størrelser", "angle": "Plus size og 3XL. Hvem har de største størrelser (Boom op til 3XL, JBS op til 3XL, Organic Basics XXXL).", "publish_from": "2026-10-01", "status": "todo"},
+    {"slug": "oekologiske-pyjamasbukser", "keyword": "økologiske pyjamasbukser", "angle": "Økologisk bomuld, certificeringer (GOTS, OEKO-TEX). Ærlig: Björn Borg og Organic Basics er økologiske; Boom lover gratis reparation hele livet som bæredygtighedsargument.", "publish_from": "2026-10-01", "status": "todo"},
+    {"slug": "pyjamasbukser-med-lommer", "keyword": "pyjamasbukser med lommer", "angle": "Praktiske detaljer: lommer, snøre, elastik. Tjek Bomuldsbuksernes detaljer på produktsiden før der skrives noget om lommer.", "publish_from": "2026-10-15", "status": "todo"},
+    {"slug": "pyjamas-julegave", "keyword": "pyjamas julegave", "angle": "Pyjamas og pyjamasbukser som julegave: størrelse, gavekort, bytteret (Boom 100 dage, gratis bytte). Pyjamassæt 549 kr.", "publish_from": "2026-11-01", "status": "todo"},
+    {"slug": "pyjamas-til-par", "keyword": "matchende pyjamas til par", "angle": "Matchende pyjamas til par og familie. Unisex gør det nemt. Julekort-billede, gaveidé.", "publish_from": "2026-11-15", "status": "todo"},
+    {"slug": "hjemmebukser", "keyword": "hjemmebukser", "angle": "Bukser til hjemmet og hjemmearbejde. Pæne nok til videomøder.", "publish_from": "2026-12-01", "status": "todo"},
+    {"slug": "pyjamasbukser-sommer", "keyword": "lette pyjamasbukser sommer", "angle": "Lette pyjamasbukser til varme nætter. 125 g/m² bomuld, lyse farver.", "publish_from": "2027-04-01", "status": "todo"},
+    {"slug": "hvide-pyjamasbukser", "keyword": "hvide pyjamasbukser", "angle": "Hvide bukser: gennemsigtighed, vask, styling om sommeren.", "publish_from": "2027-04-15", "status": "todo"}
+  ]
+}
