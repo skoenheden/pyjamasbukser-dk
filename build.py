@@ -259,7 +259,7 @@ def head(a, canonical):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="{"noindex, follow" if a["slug"] == "404" else "index, follow, max-image-preview:large"}">
 <meta name="geo.region" content="DK">
 <link rel="icon" href="/favicon.ico?v=2" sizes="any">
 <link rel="icon" type="image/png" href="/favicon.png?v=2">
