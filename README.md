@@ -1,7 +1,7 @@
 # pyjamasbukser.dk
 
 SEO/GEO-side der sammenligner pyjamasbukser og sender trafik videre til Boom Butiks Bomuldsbukser
-(boombutik.dk/products/bomuldsbukser, UTM `utm_source=pyjamasbukser.dk`). Siden er åben om, at Boom Butik står bag.
+(boombutik.dk/products/bomuldsbukser, UTM `utm_source=pyjamasbukser.dk`). Sitet har sin egen identitet, men oplyser kort, at Boom Butik driver det: ved produktkortet, under sammenligningstabellen, i footeren og på /om. Den oplysning må ikke fjernes (markedsføringslovens regler om skjult reklame).
 
 - `content/site.json` - Boom-fakta (pris, fragt, retur, anmeldelser)
 - `content/brands.json` - sammenligningstabellen. Kun verificerede tal, ellers "ikke oplyst"

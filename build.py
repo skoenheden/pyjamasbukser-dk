@@ -169,6 +169,7 @@ def product_card(slug):
       <li><b>Retur</b> {esc(b["returns_short"])}</li>
     </ul>
     <a class="btn" href="{esc(shop_url(None, "product-card", slug))}">Se Bomuldsbukserne →</a>
+    <p class="own">{esc(SITE["disclosure_short"])}</p>
   </div>
 </div>'''
 
@@ -207,7 +208,8 @@ def compare_table(tag, slug):
             "</tr>")
     out.append("</tbody></table></div>")
     out.append(f'<p class="source">Priser, fragt og returvilkår er tjekket på brandenes egne sider og Trustpilot {da_date(BRANDS["checked"])}. '
-               "Priser skifter, så tjek altid den aktuelle pris hos forhandleren. Se {{LINK:om|hvordan vi sammenligner}}.</p>")
+               "Priser skifter, så tjek altid den aktuelle pris hos forhandleren. "
+               + esc(SITE["disclosure_short"]) + " Se {{LINK:om|hvordan vi sammenligner}}.</p>")
     return "\n".join(out)
 
 
@@ -274,7 +276,7 @@ def head(a, canonical):
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 '''
 
@@ -284,8 +286,8 @@ def header():
     return f'''<header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href="/" aria-label="pyjamasbukser.dk forside">
-      <img src="/logo-icon.png" alt="" width="34" height="34">
-      <span class="logo-text"><b>pyjamasbukser.dk</b><small>af Boom Butik</small></span>
+      <svg class="logo-mark" viewBox="0 0 34 34" width="34" height="34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="#1d2340"/><circle cx="17" cy="17" r="10" fill="#f7f5f0"/><circle cx="22.5" cy="13.5" r="10" fill="#1d2340"/></svg>
+      <span class="logo-text"><b>pyjamasbukser.dk</b><small>Guide og sammenligning</small></span>
     </a>
     <nav class="main-nav" id="nav">{nav}</nav>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">☰</button>
@@ -301,7 +303,7 @@ def footer(slug):
       <div><b>pyjamasbukser.dk</b><p>{esc(SITE["disclosure_short"])}</p></div>
       <nav>{links}<a href="/om">Om siden</a></nav>
     </div>
-    <p class="footer-copy">© {datetime.date.today().year} Boom Butik. pyjamasbukser.dk drives af Boom Butik. Øvrige varemærker tilhører deres respektive ejere.</p>
+    <p class="footer-copy">© {datetime.date.today().year} pyjamasbukser.dk. Varemærker tilhører deres respektive ejere.</p>
   </div>
 </footer>
 <div class="mobile-cta"><a href="{esc(shop_url(None, "mobile-sticky", slug))}">Se Bomuldsbukserne · {BOOM["price"]} kr. →</a></div>'''
@@ -345,8 +347,9 @@ def related_html(a):
 
 def schemas(a, canonical):
     out = []
-    publisher = {"@type": "Organization", "name": "Boom Butik", "url": SHOP + "/",
-                 "logo": f"{DOMAIN}/logo.png"}
+    publisher = {"@type": "Organization", "name": "pyjamasbukser.dk", "url": DOMAIN + "/",
+                 "logo": f"{DOMAIN}/apple-touch-icon.png",
+                 "parentOrganization": {"@type": "Organization", "name": "Boom Butik", "url": SHOP + "/"}}
     if a["slug"] == "index":
         out.append({"@context": "https://schema.org", "@type": "WebSite", "name": "pyjamasbukser.dk",
                     "url": DOMAIN + "/", "inLanguage": "da", "description": SITE["description"],
@@ -372,7 +375,7 @@ def schemas(a, canonical):
                     "description": a["description"], "url": canonical, "inLanguage": "da",
                     "datePublished": a["date_published"], "dateModified": a["date_modified"],
                     "image": f"{DOMAIN}/og-image.png",
-                    "author": {"@type": "Organization", "name": "Boom Butik", "url": SHOP + "/"},
+                    "author": {"@type": "Organization", "name": "pyjamasbukser.dk", "url": DOMAIN + "/"},
                     "publisher": publisher,
                     "mainEntityOfPage": canonical})
     if a["faq"]:
@@ -391,7 +394,7 @@ def render(a):
     qa = a.get("quick_answer")
     qa_html = f'<div class="quick-answer"><span>Kort svar</span><p>{expand(qa, slug)}</p></div>' if qa else ""
     intro = f'<p class="lede">{expand(a["intro"], slug)}</p>' if a.get("intro") else ""
-    updated = f'<p class="meta">Opdateret {da_date(a["date_modified"])} · Af Boom Butik</p>'
+    updated = f'<p class="meta">Opdateret {da_date(a["date_modified"])} · Af redaktionen</p>'
 
     if a["layout"] == "home":
         top = f'''<section class="hero">
@@ -416,7 +419,6 @@ def render(a):
   <div class="prose">{body}</div>
   {faq_html(a["faq"], slug)}
   {related_html(a)}
-  <aside class="disclosure">{esc(SITE["disclosure_short"])} <a href="/om">Læs mere om siden</a>.</aside>
 </main>'''
     if a["layout"] == "home" and a["faq"]:
         main += f'<div class="wrap narrow">{faq_html(a["faq"], slug)}</div>'

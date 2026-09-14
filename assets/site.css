@@ -155,3 +155,15 @@ a{color:inherit}
   .mobile-cta a{display:flex;align-items:center;justify-content:center;min-height:47px;border-radius:41px;background:#000;color:#fff;text-decoration:none;font-weight:700;letter-spacing:-.03em;box-shadow:0 6px 20px rgba(0,0,0,.2)}
 }
 .compare td:first-child .pill{display:table;margin-bottom:6px}
+
+/* === Egen identitet (pyjamasbukser.dk) === */
+:root{--ink:#1d2340;--soft:#f7f5f0;--line:#e4e1ea;--muted:#62667a;--blue:#e7e4f5;--pink:#f4e6ea}
+body{font-family:"DM Sans",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;color:var(--ink)}
+h1,h2,h3,.logo-text b,.product-price,.facts b,.footer-top b{font-family:Fraunces,Georgia,serif;letter-spacing:-.01em !important;font-weight:700}
+.hero h1{letter-spacing:-.02em !important}
+.logo-mark{width:34px;height:34px;flex-shrink:0}
+.btn,.mobile-cta a{border-radius:12px !important;letter-spacing:0 !important}
+.pill{border-radius:6px;background:var(--ink)}
+.stars{color:#c9a227}
+.own{font-size:.8rem;color:var(--muted);margin:12px 0 0 !important}
+.site-footer{background:var(--ink);color:#c9cbd8}
