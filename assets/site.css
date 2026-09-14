@@ -167,3 +167,7 @@ h1,h2,h3,.logo-text b,.product-price,.facts b,.footer-top b{font-family:Fraunces
 .stars{color:#c9a227}
 .own{font-size:.8rem;color:var(--muted);margin:12px 0 0 !important}
 .site-footer{background:var(--ink);color:#c9cbd8}
+/* spacing på "Vores anbefaling"-mærker */
+.pill{display:inline-block;margin:0 8px 8px 0;padding:4px 10px;line-height:1.3}
+.compare td:first-child .pill{display:table;margin:0 0 8px}
+.product-body .pill{margin-bottom:10px}

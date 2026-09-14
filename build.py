@@ -261,9 +261,9 @@ def head(a, canonical):
 <link rel="canonical" href="{canonical}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="geo.region" content="DK">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico?v=2" sizes="any">
+<link rel="icon" type="image/png" href="/favicon.png?v=2">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 <meta property="og:site_name" content="pyjamasbukser.dk">
 <meta property="og:locale" content="da_DK">
 <meta property="og:type" content="{og_type}">
