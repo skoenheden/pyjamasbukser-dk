@@ -1,7 +1,7 @@
 {
   "note": "Kø af kommende artikler. Den ugentlige opgave tager det øverste emne med status 'todo', hvis 'publish_from' er nået, skriver artiklen og sætter status til 'done' med dato. Tilføj gerne nye emner nederst.",
   "topics": [
-    {"slug": "pyjamasbukser-flonel", "keyword": "pyjamasbukser flonel", "angle": "Flonel vs. glat bomuld til vinteren. Ærlig: flonel er varmere (JBS, Björn Borg); Bomuldsbukser er bedst hvis man bliver varm om natten eller vil bruge dem ude.", "publish_from": "2026-09-15", "status": "todo"},
+    {"slug": "pyjamasbukser-flonel", "keyword": "pyjamasbukser flonel", "angle": "Flonel vs. glat bomuld til vinteren. Ærlig: flonel er varmere (JBS, Björn Borg); Bomuldsbukser er bedst hvis man bliver varm om natten eller vil bruge dem ude.", "publish_from": "2026-09-15", "status": "done", "published": "2026-09-15"},
     {"slug": "natbukser", "keyword": "natbukser", "angle": "Synonym-side: natbukser, pyjamasbukser, hjemmebukser. Hvad kalder man dem, hvad skal man kigge efter.", "publish_from": "2026-09-15", "status": "todo"},
     {"slug": "pyjamasbukser-unisex", "keyword": "unisex pyjamasbukser", "angle": "Hvad betyder unisex, hvordan passer det dame/herre, par der deler. Bomuldsbukser er unisex XXS-3XL.", "publish_from": "2026-09-15", "status": "todo"},
     {"slug": "pyjamasbukser-vs-joggingbukser", "keyword": "pyjamasbukser eller joggingbukser", "angle": "Forskelle i stof, vægt og brug. Link til Boom sweatpants og Bomuldsbukser.", "publish_from": "2026-09-15", "status": "todo"},
