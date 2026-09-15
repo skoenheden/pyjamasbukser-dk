@@ -11,3 +11,5 @@ SEO/GEO-side der sammenligner pyjamasbukser og sender trafik videre til Boom But
 
 Regler: ingen lange tankestreger i copy, aldrig "fri retur" (skriv "100 dages returret"), ingen opdigtede tal.
 Deploy: `docs/` (GitHub Pages med CNAME, eller upload til cPanel-mappen /pyjamasbukser.dk - `.htaccess` er med).
+
+Schema: brug ALDRIG Product-, Review- eller aggregateRating-schema. Sitet er en sammenligning, og ratings fra boombutik.dk må ikke markeres her (Googles regler mod at samle anmeldelser fra andre websites). Search Console-advarsler om manglende "review"/"aggregateRating" løses ved at undgå Product-schema, ikke ved at tilføje ratings.

@@ -361,14 +361,8 @@ def schemas(a, canonical):
                          "name": f'{r["brand"]} {r["model"]}',
                          "url": (SHOP + r["path"]) if r.get("boom") else r["url"]}
                         for i, r in enumerate(BRANDS["rows"])]})
-        out.append({"@context": "https://schema.org", "@type": "Product",
-                    "name": f'Boom Butik {BOOM["product_name"]}', "brand": {"@type": "Brand", "name": "Boom Butik"},
-                    "description": BOOM["summary"], "image": [i["src"] for i in BOOM["images"]],
-                    "material": BOOM["material"], "url": SHOP + BOOM["product_path"],
-                    "offers": {"@type": "Offer", "price": str(BOOM["price"]), "priceCurrency": "DKK",
-                               "availability": "https://schema.org/InStock",
-                               "url": SHOP + BOOM["product_path"],
-                               "seller": {"@type": "Organization", "name": "Boom Butik"}}})
+        # Ingen Product-schema: siden er en sammenligning, ikke en produktside, og ratings
+        # hentet fra boombutik.dk må ikke markeres her (Googles regler for anmeldelsesuddrag).
     else:
         typ = "Article" if a["layout"] == "article" else "WebPage"
         out.append({"@context": "https://schema.org", "@type": typ, "headline": a["h1"],
