@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-11",
+  "checked": "2026-10-06",
   "note": "Kun tal der er set på brandets/butikkens egen side eller dk.trustpilot.com. Uverificerede felter skrives 'ikke oplyst'. Opdateres af den ugentlige opgave.",
   "rows": [
     {
@@ -14,8 +14,13 @@
       "shipping": "39 kr. (gratis fra 499 kr.)",
       "shipping_num": 39,
       "returns": "100 dage, gratis bytte",
-      "trustpilot": "4,6 (3.755 anm.)",
-      "tags": ["herre", "dame", "bomuld", "unisex"]
+      "trustpilot": "4,7 (3.791 anm.)",
+      "tags": [
+        "herre",
+        "dame",
+        "bomuld",
+        "unisex"
+      ]
     },
     {
       "brand": "JBS",
@@ -28,8 +33,11 @@
       "shipping": "34 kr. (gratis pakkeshop fra 250 kr.)",
       "shipping_num": 34,
       "returns": "365 dage, du betaler returfragt",
-      "trustpilot": "4,7 (559 anm.)",
-      "tags": ["herre", "bomuld"]
+      "trustpilot": "4,7 (566 anm.)",
+      "tags": [
+        "herre",
+        "bomuld"
+      ]
     },
     {
       "brand": "Björn Borg",
@@ -37,13 +45,16 @@
       "shop": "Björn Borg",
       "url": "https://www.bjornborg.com/dk/core-flannel-pyjama-pants-10000663-p0779/",
       "material": "100 % økologisk bomuld (flonel)",
-      "price": "399 kr.",
+      "price": "399 kr. (tilbud 319 kr. pr. 6/10)",
       "price_num": 399,
       "shipping": "50 kr. (gratis fra 800 kr.)",
       "shipping_num": 50,
       "returns": "30 dage, 39 kr. i gebyr",
-      "trustpilot": "4,7 (3.176 anm.)",
-      "tags": ["herre", "bomuld"]
+      "trustpilot": "4,7 (3.222 anm.)",
+      "tags": [
+        "herre",
+        "bomuld"
+      ]
     },
     {
       "brand": "Calvin Klein",
@@ -51,27 +62,32 @@
       "shop": "Zalando",
       "url": "https://www.zalando.dk/herretoej-nattoej-natbukser/",
       "material": "Bomuld med stretch",
-      "price": "499 kr.",
+      "price": "499 kr. (tilbud fra 250 kr. pr. 6/10)",
       "price_num": 499,
       "shipping": "Gratis fra 499 kr.",
       "shipping_num": 0,
       "returns": "30 dage, gratis",
-      "trustpilot": "Zalando: 1,9 (13.496 anm.)",
-      "tags": ["herre"]
+      "trustpilot": "Zalando: 1,9 (13.556 anm.)",
+      "tags": [
+        "herre"
+      ]
     },
     {
       "brand": "Organic Basics",
       "model": "Core Sleep Poplin Pants",
       "shop": "Organic Basics",
       "url": "https://dk.organicbasics.com/collections/womens-pyjamas-pants",
-      "material": "Økologisk bomuld (poplin)",
-      "price": "599 kr.",
+      "material": "97 % økologisk bomuld, elastan (poplin)",
+      "price": "599 kr. (tilbud 419 kr. pr. 6/10)",
       "price_num": 599,
       "shipping": "ikke oplyst",
       "shipping_num": null,
       "returns": "30 dage, returfragt trækkes ved refusion",
-      "trustpilot": "4,3 (1.759 anm.)",
-      "tags": ["dame", "bomuld"]
+      "trustpilot": "4,3 (1.788 anm.)",
+      "tags": [
+        "dame",
+        "bomuld"
+      ]
     },
     {
       "brand": "HAY",
@@ -79,13 +95,15 @@
       "shop": "Magasin",
       "url": "https://www.magasin.dk/outline-pyjama-trousers-s-m-lavende/BEPB13-0008.html",
       "material": "ikke oplyst",
-      "price": "749 kr.",
+      "price": "749 kr. (sidst set 11/9, kunne ikke tjekkes 6/10)",
       "price_num": 749,
       "shipping": "Fra 34 kr.",
       "shipping_num": 34,
       "returns": "30 dage, returlabel koster",
       "trustpilot": "Magasin: 2,8 (90.550 anm.)",
-      "tags": ["dame"]
+      "tags": [
+        "dame"
+      ]
     }
   ]
 }
